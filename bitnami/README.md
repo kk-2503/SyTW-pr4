@@ -1,4 +1,5 @@
 # Sample MEAN application
+## Esto es una prueba para realizar con las ramas
 
 This application is an example of how to deploy Node.js applications in high availability mode in the Azure cloud.
 
@@ -16,7 +17,7 @@ https://docs.bitnami.com/azure-templates/infrastructure/nodejs
 
 For your application to be compatible with the Node.js High-Availability Cluster solution it should fulfill the next requirements:
 
-## Server port
+º## Server port
 
 The Node.js High-Availability Cluster template creates a LoadBalancer on the port 80 that redirects HTTP traffic to an unprivileged port. This port is accessible using the **BACKEND_PORT** environment variable.
 
